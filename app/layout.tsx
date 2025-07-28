@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "Created with v0",
   generator: "v0.dev",
   icons: {
-    icon: "/placeholder.svg?height=32&width=32",
+    icon: "/Whalin-Icon.png",
   },
 }
 
