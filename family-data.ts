@@ -3,7 +3,7 @@ export const familyData = {
   parents: [
     {
       name: "Ferguson Whalin",
-      birth: "09 Sep 1824, Galway, Ireland",
+      birth: "09 Sep 1824, Gort, Galway, Ireland",
       death: "02 Mar 1916, Tennessee, Illinois",
       imageSrc: "/assets/Whalin/Ferguson.png",
     },
@@ -21,13 +21,13 @@ export const familyData = {
       parents: [
         {
           name: "John Francis Whalin",
-          birth: "13 Jun 1874, McDonough City, Illinois",
+          birth: "13 Jul 1874, McDonough City, Illinois",
           death: "25 Mar 1962, Macomb, Illinois",
           imageSrc: "/assets/Whalin/John Francis.jpg",
         },
         {
           name: "Sarah Catherine Doran",
-          birth: "29 Dec 1878, McDonough City, Illinois",
+          birth: "22 Dec 1879, McDonough City, Illinois",
           death: "12 Aug 1942, Macomb, Illinois",
           imageSrc: "/assets/Whalin/Sarah Doran.jpg",
           marriageDate: "04 Jun 1902",
@@ -57,14 +57,14 @@ export const familyData = {
               parents: [
                 {
                   name: "Gerald Edward Dillon",
-                  birth: "29 Jan 1940, Oskaloosa, Iowa",
+                  birth: "17 Nov 1932, Parsons, Kansas", 
                   death: "22 Jan 2019, Overland Park, Kansas",
                   imageSrc: "/assets/Whalin/Jerry Dillon.jpg",
                 },
                 {
                   name: "Kathleen Anne Whalin",
-                  birth: "17 Nov 1932, Parsons, Kansas",
-                  death: "22 Jan 2019, Overland Park, Kansas",
+                  birth: "29 Jan 1940, Oskaloosa, Iowa",
+                  death: "Living",
                   imageSrc: "/assets/Whalin/Grandma Dillon.jpg",
                   marriageDate: "29 Aug 1964",
                   marriagePlace: "Washington, DC",
@@ -81,7 +81,7 @@ export const familyData = {
                     },
                     {
                       name: "Sheila Jeanne Dillon",
-                      birth: "22 Dec 1964, Bethesda, Maryland",
+                      birth: "24 May 1965, Silver Springs, Maryland",
                       death: "Living",
                       imageSrc: "/assets/Whalin/Sheila Dillon.PNG",
                       marriageDate: "08 Nov 1989",
@@ -105,7 +105,7 @@ export const familyData = {
                       parents: [
                         {
                           name: "Chase Edward Burns",
-                          birth: "03 Mar 1994, Overland Park, Kansas",
+                          birth: "03 Mar 1994, Houston, Texas",
                           death: "Living",
                           imageSrc: "/assets/Whalin/Chase Burns.PNG",
                         },
@@ -238,13 +238,13 @@ export const familyData = {
                   parents: [
                     {
                       name: "Scott Michael Simpson",
-                      birth: "30 Apr 1970, Silver Springs, Maryland",
+                      birth: "7 Jan 1964, Silver Springs, Maryland",
                       death: "Living",
                       imageSrc: "/assets/Whalin/Scott Simpson.png",
                     },
                     {
                       name: "Tara Kathleen Dillon",
-                      birth: "26 Jan 1914, Watertown, South Dakota",
+                      birth: "30 Apr 1970, Silver Springs, Maryland",
                       death: "Living",
                       imageSrc: "/assets/Whalin/Tara Simpson.PNG",
                       marriageDate: "18 May 2002",
@@ -294,13 +294,13 @@ export const familyData = {
                   parents: [
                     {
                       name: "Patrick Taylor",
-                      birth: "30 Apr 1972, Overland Park, Kansas",
+                      birth: "30 Apr 1972, Northbrook, Ilinois",
                       death: "Living",
                       imageSrc: "/assets/Whalin/patrick Taylor.PNG",
                     },
                     {
                       name: "Kylie Dillon",
-                      birth: "26 Jul 1972, Northbrook, Illinois",
+                      birth: "6 Mar 1973, Overland Park, Kansas",
                       death: "Living",
                       imageSrc: "/assets/Whalin/Kylie Dillon.PNG",
                       marriageDate: "18 May 2002",
@@ -352,14 +352,14 @@ export const familyData = {
               parents: [
                 {
                   name: "Benedict Drury Thompson",
-                  birth: "13 Jul 1939, DesMoines, Iowa",
+                  birth: "13 Jul 1939, Leonardtown, Maryland",
                   death: "30 Apr 2016 Frederick, Maryland",
                   imageSrc: "/assets/Whalin/Dick Thompson.PNG",
                 },
                 {
                   name: "Sheila Sue Whalin",
-                  birth: "13 Jan 1939, Leonardtown, Maryland",
-                  death: "30 Apr 2016, Frederick, Maryland",
+                  birth: "25 Jul 1942, Oskaloosa, Iowa",
+                  death: "Living",
                   imageSrc: "/assets/Whalin/Sheila Thompson.PNG",
                   marriageDate: "02 Sep 1967",
                   marriagePlace: "Washington, DC",
@@ -370,7 +370,7 @@ export const familyData = {
                   parents: [
                     {
                       name: "Patrick Thompson",
-                      birth: "25 May 1969, Silver Springs, Maryland",
+                      birth: "25 May 1969, Walkersville, Maryland",
                       death: "Living",
                       married: "Single",
                       imageSrc: "/assets/Whalin/Pat Thompson.jpg",
@@ -382,13 +382,13 @@ export const familyData = {
                   parents: [
                     {
                       name: "Douglas Sevec",
-                      birth: "19 Apr 1971, Silver Springs, Maryland",
+                      birth: "3 July 1968, Towson, Maryland",
                       death: "Living",
                       imageSrc: "/assets/Whalin/Doug.PNG",
                     },
                     {
                       name: "Maureen Thompson",
-                      birth: "03 Jul 1968, Towson, Maryland",
+                      birth: "19 Apr 1971, Walkersville, Maryland",
                       death: "Living",
                       imageSrc: "/assets/Whalin/Maureen Sevec.PNG",
                     },
@@ -442,7 +442,7 @@ export const familyData = {
                     },
                     {
                       name: "Debra Nagan Thompson",
-                      birth: "03 Jul 1968, Towson, Maryland",
+                      birth: "6 Oct 1974, Towson, Maryland",
                       death: "Living",
                       imageSrc: "/assets/Whalin/Debra.PNG",
                       marriageDate: "June 2007",
@@ -505,13 +505,13 @@ export const familyData = {
               parents: [
                 {
                   name: "Steven William Richter",
-                  birth: "19 Sep 1947, Leonardtown, Maryland",
+                  birth: "27 Nov 1947, St. Paul, Minnesota",
                   death: "Living",
                   imageSrc: "/assets/Whalin/Steve Richter.PNG",
                 },
                 {
                   name: "Maureen Eileen Whalin",
-                  birth: "26 Jan 1947, St. Paul, Minnesota",
+                  birth: "19 Sep 1947, St. Paul, Minnesota",
                   death: "Living",
                   imageSrc: "/assets/Whalin/Eileen Richter.PNG",
                   marriageDate: "21 Feb 1970",
@@ -523,13 +523,13 @@ export const familyData = {
                   parents: [
                     {
                       name: "James Jeremiah Richter",
-                      birth: "4 Feb 1976, St. Paul, Minnesota",
+                      birth: "4 Feb 1979, St. Paul, Minnesota",
                       death: "Living",
                       imageSrc: "/assets/Whalin/James Richter.PNG",
                     },
                     {
-                      name: "Jess Richter",
-                      birth: "Living",
+                      name: "Jessica Dial Richter",
+                      birth: "27 Jan 1980, Reutlingen",
                       death: "Living",
                       imageSrc: "/assets/Whalin/Jess Richter.PNG",
                     },
@@ -538,7 +538,7 @@ export const familyData = {
                     {
                       parents: [
                         {
-                          name: "Katie Richter",
+                          name: "Cady Richter",
                           birth: "05 Jul 2007, Minneapolis, Minnesota",
                           death: "Living",
                           married: "Single",
