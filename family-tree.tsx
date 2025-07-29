@@ -4,6 +4,7 @@ import type React from "react"
 import { useState, useEffect, useRef } from "react"
 import "./family-tree.css"
 import { familyData } from "./family-data"
+import RootConnector from "./components/RootConnector"
 
 // Types
 type Person = {
@@ -181,26 +182,37 @@ const FamilyUnit: React.FC<FamilyUnitProps> = ({
       </div>
 
       {expanded && children && children.length > 0 && (
-        <ul className="children-container">
-          {children.map((child, index) => {
-            const childKey = child.parents[0].name
+        <>
+           <RootConnector 
+            childCount={children.length} 
+            nameTag={`${parents[0].name} & ${parents[1]?.name ?? ""}`} 
+            />
+           
+          <ul className="children-container">
+            {children.map((child, index) => {
+              const childKey = child.parents[0].name
 
-            return (
-              <FamilyUnit
-                key={childKey}
-                parents={child.parents}
-                children={child.children}
-                forceVisible={false}
-                onPersonClick={onPersonClick}
-                onChildExpand={handleChildExpand}
-                parentActiveChild={activeChild}
-              />
-            )
-          })}
-        </ul>
+              return (
+                
+                <FamilyUnit
+                  key={childKey}
+                  parents={child.parents}
+                  children={child.children}
+                  forceVisible={false}
+                  onPersonClick={onPersonClick}
+                  onChildExpand={handleChildExpand}
+                  parentActiveChild={activeChild}
+                />
+                
+              )
+              
+            })}
+          </ul>
+        </>
       )}
     </li>
   )
+
 }
 
 // Focus Modal Component
@@ -322,9 +334,9 @@ const FamilyTree: React.FC = () => {
         <h1 className="tree-title">Whalin Family Tree</h1>
         <h1 className="other-tree-link">
           <a href="https://vernetti-family-tree.netlify.app/" target="_blank" rel="noopener noreferrer">
-          Vernetti Family Tree
+            Vernetti Family Tree
           </a>
-          </h1>
+        </h1>
         <p className="tree-subtitle">Click on family members to explore their details</p>
       </div>
 

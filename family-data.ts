@@ -38,12 +38,6 @@ export const familyData = {
         {
           parents: [
             {
-              name: "Williard Patrick Whalin",
-              birth: "12 Apr 1908, Macomb, Illinois",
-              death: "17 Nov 1966, Madison, Indiana",
-              imageSrc: "/assets/Whalin/Hap Whalin.jpg",
-            },
-            {
               name: "Maureen Elizabeth Talty",
               birth: "26 Jan 1914, Watertown, South Dakota",
               death: "03 Jul 2001, Minneapolis, Minnesota",
@@ -51,6 +45,13 @@ export const familyData = {
               marriageDate: "11 Aug 1938",
               marriagePlace: "Waterloo, Iowa",
             },
+            {
+              name: "Williard Patrick Whalin",
+              birth: "12 Apr 1908, Macomb, Illinois",
+              death: "17 Nov 1966, Madison, Indiana",
+              imageSrc: "/assets/Whalin/Hap Whalin.jpg",
+            },
+            
           ],
           children: [
             {

@@ -24,7 +24,7 @@ body {
 
 .tree-header {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: -3rem;
   position: relative;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .header-tree-image {
-  margin-bottom: 0.5rem;
+  margin-bottom: -1rem;
   position: relative;
   display: inline-block;
 }
@@ -86,7 +86,7 @@ body {
   font-size: 1.1rem;
   font-style: italic;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-  margin-top: 0.5rem;
+  margin-top: -1rem;
 }
 
 .header-tree-image::before {
@@ -113,12 +113,13 @@ body {
 ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  /* margin: 0; */
   position: relative;
 }
 
 .tree-root,
 .children-container {
+  margin-top: 4.5rem !important;
   display: flex;
   justify-content: center;
   padding: 0;
@@ -143,31 +144,6 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-/* Root connection styling */
-.family-unit.expanded .children-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  background: linear-gradient(180deg, #8b4513 0%, #654321 50%, #4a2c17 100%);
-  width: 4px;
-  height: 1rem;
-  transform: translateX(-50%);
-  border-radius: 2px;
-  animation: rootGrow 0.6s ease-out;
-}
-
-@keyframes rootGrow {
-  0% {
-    height: 0;
-    opacity: 0.5;
-  }
-  100% {
-    height: 1rem;
-    opacity: 1;
-  }
 }
 
 /* Family navigation styling */
@@ -326,6 +302,7 @@ ul {
 /* Compact couple styling */
 .couple-container-compact {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -337,15 +314,23 @@ ul {
 
 .couple-cards-small {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
-  gap: 0.3rem;
+  gap: 0.1rem;
 }
 
+
 .marriage-connector {
-  color: #dc143c;
-  font-size: 4rem;
-  padding: 0 0.5rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* Center it */
+  font-size: 5.4rem;
+  color: #b22222;
+  text-shadow: 0 0 0.4rem rgba(255, 34, 203, 0.801);
+  pointer-events: none; /* So it doesn't interfere with clicks */
+  z-index: 2; /* So it overlaps the cards */
 }
 
 /* Focus Modal Styling */
