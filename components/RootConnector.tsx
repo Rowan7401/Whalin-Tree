@@ -65,9 +65,7 @@ const RootConnector: React.FC<RootConnectorProps> = ({ childCount, nameTag }) =>
 
                     // Evenly spread across [-MAX_OFFSET, MAX_OFFSET]
                     const x = -MAX_OFFSET + (2 * MAX_OFFSET) * (index / (childCount - 1))
-
                     
-
                     console.log(`↳ Path ${index + 1} for ${nameTag}: x = ${x}`)
 
                     return (
