@@ -105,16 +105,17 @@ const CoupleCard: React.FC<CoupleCardProps> = ({
         onClick={() => onClick && onClick({ partner1, partner2, marriageDate, marriagePlace, type: "couple" })}
       />
       <div className="marriage-connector">♥</div>
+        {showExpand && (
+      <div className="expand-btn-small" onClick={onExpand}>
+        {expanded ? "−" : "+"}
+      </div>
+    )}
       <PersonCard
         person={partner2}
         onClick={() => onClick && onClick({ partner1, partner2, marriageDate, marriagePlace, type: "couple" })}
       />
     </div>
-    {showExpand && (
-      <div className="expand-btn-small" onClick={onExpand}>
-        {expanded ? "−" : "+"}
-      </div>
-    )}
+  
   </div>
 )
 
@@ -157,7 +158,7 @@ const FamilyUnit: React.FC<FamilyUnitProps> = ({
   }
 
   return (
-    <li className={`family-unit ${forceVisible ? "root-family" : ""} ${expanded ? "expanded" : ""}`}>
+    <li className={`family-unit ${forceVisible ? "root-family" : ""} ${expanded ? "open" : ""}`}>
       <div className="parents-container">
         {parents.length === 1 ? (
           <PersonCard

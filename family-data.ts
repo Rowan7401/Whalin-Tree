@@ -2,7 +2,7 @@
 export const familyData = {
   parents: [
     {
-      name: "Ferguson Whalin",
+      name: "Fergus Whalin",
       birth: "09 Sep 1824, Gort, Galway, Ireland",
       death: "02 Mar 1916, Tennessee, Illinois",
       imageSrc: "/assets/Whalin/Ferguson.png",
